@@ -1,7 +1,7 @@
 class profiles::ssh {
 
   class { 'enterprise-ssh':
-    rootenabled = 'yes',
+    rootenabled => 'yes',
   }
 
 }
